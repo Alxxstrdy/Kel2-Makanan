@@ -14,7 +14,7 @@ public class bubur {
    
 
     
-    public bubur(String jenis,String toping, String bumbu) {
+    public bubur(String jenis,String toping, String bumbu,String tekstur,String warna) {
         this.rasa = rasa;
         this.toping = toping;
         this.bumbu = bumbu;
