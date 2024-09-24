@@ -3,7 +3,6 @@ package makanan;
 public class NasiGoreng {
     String rasa, tekstur, bumbu, warna, topping;
 
-    // Setter dan Getter untuk setiap atribut
     public void setRasa(String rasaNasi) {
         this.rasa = rasaNasi;
     }
