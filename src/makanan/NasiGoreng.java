@@ -1,84 +1,46 @@
 package makanan;
 
 public class NasiGoreng {
-    private String jenis, bumbu, rasa, tekstur, warna, topping;
-    private int porsi;
+    String rasa, tekstur, bumbu, warna, topping;
 
-    public NasiGoreng(String jenis, int porsi, String bumbu, String rasa, String tekstur, String warna, String topping) {
-        this.jenis = jenis;
-        this.porsi = porsi;
-        this.bumbu = bumbu;
-        this.rasa = rasa;
-        this.tekstur = tekstur;
-        this.warna = warna;
-        this.topping = topping;
-    }
-    
-    public String getJenis() {
-        return jenis;
-    }
-
-    public void setJenis(String jenis) {
-        this.jenis = jenis;
-    }
-
-    public int getPorsi() {
-        return porsi;
-    }
-
-    public void setPorsi(int porsi) {
-        this.porsi = porsi;
-    }
-
-    public String getBumbu() {
-        return bumbu;
-    }
-
-    public void setBumbu(String bumbu) {
-        this.bumbu = bumbu;
+    // Setter dan Getter untuk setiap atribut
+    public void setRasa(String rasaNasi) {
+        this.rasa = rasaNasi;
     }
 
     public String getRasa() {
         return rasa;
     }
 
-    public void setRasa(String rasa) {
-        this.rasa = rasa;
+    public void setTekstur(String teksturNasi) {
+        this.tekstur = teksturNasi;
     }
 
     public String getTekstur() {
         return tekstur;
     }
 
-    public void setTekstur(String tekstur) {
-        this.tekstur = tekstur;
+    public void setBumbu(String bumbuNasi) {
+        this.bumbu = bumbuNasi;
+    }
+
+    public String getBumbu() {
+        return bumbu;
+    }
+
+    public void setWarna(String warnaNasi) {
+        this.warna = warnaNasi;
     }
 
     public String getWarna() {
         return warna;
     }
 
-    public void setWarna(String warna) {
-        this.warna = warna;
+    public void setTopping(String toppingNasi) {
+        this.topping = toppingNasi;
     }
 
     public String getTopping() {
         return topping;
-    }
-
-    public void setTopping(String topping) {
-        this.topping = topping;
-    }
-
-    public void tampilkan() {
-        System.out.println("=== Menu Nasi Goreng ===");
-        System.out.println("Jenis: " + jenis);
-        System.out.println("Porsi: " + porsi);
-        System.out.println("Bumbu: " + bumbu);
-        System.out.println("Rasa: " + rasa);
-        System.out.println("Tekstur: " + tekstur);
-        System.out.println("Warna: " + warna);
-        System.out.println("Topping: " + topping);
-        System.out.println("=============================");
     }
 }
