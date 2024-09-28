@@ -11,48 +11,42 @@ package makanan;
 public class bubur {
     
     String rasa,bumbu,tekstur,toping,warna;
-   
 
+    public void setrasa(String rasa) {
+        this.rasa = rasa; 
+    }        
     
-    public bubur(String jenis,String toping, String bumbu,String tekstur,String warna) {
-        this.rasa = rasa;
-        this.toping = toping;
-        this.bumbu = bumbu;
-        this.tekstur = tekstur;
-        this.warna =warna ;
-        
-    }
-
     public String getrasa() {
         return rasa; // gurih dan manis
     }
 
-    public void setrasa(String jenis) {
-        this.rasa = rasa; 
+    public void settoping(String toping) {
+        this.toping = toping;
     }
 
     public String gettoping() {
         return toping;// kerupuk ,bawang dan ayam
     }
 
-    public void settoping(String porsi) {
-        this.toping = toping;
+    public void setBumbu(String bumbu) {
+        this.bumbu = bumbu;
     }
 
     public String getBumbu() {
         return bumbu; // bears
     }
 
-    public void setBumbu(String bumbu) {
-        this.bumbu = bumbu;
+    public void settekstur(String tekstur) {
+        this.tekstur = tekstur; 
+        
     }
     
      public String gettekstur() {
         return tekstur; // lembek
     }
 
-    public void settekstur(String jenis) {
-        this.tekstur = tekstur; 
+    public void setwarna(String warna) {
+        this.warna = warna;        
         
     }
     
@@ -60,10 +54,7 @@ public class bubur {
         return warna; // putih
     }
 
-    public void setwarna(String jenis) {
-        this.warna = warna;        
-        
-    }
+    
 }
     
 
