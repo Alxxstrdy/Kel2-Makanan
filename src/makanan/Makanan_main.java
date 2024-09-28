@@ -3,7 +3,7 @@ package makanan;
 public class Makanan_main {
     public static void main(String[] args) {
         
-        MieAyam mie = new MieAyam();
+        MieAyamm mie = new MieAyamm();
         mie.setRasa("Gurih");
         mie.setBumbu("Minyak Bawang");
         mie.setTekstur("Berkuah");
