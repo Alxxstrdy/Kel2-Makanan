@@ -15,6 +15,15 @@ public class framebubur extends javax.swing.JFrame {
      */
     public framebubur() {
         initComponents();
+        reset();
+    }
+    
+    void reset(){
+        tbumbu.setText(null);
+        trasa.setText(null);
+        ttekstur.setText(null);
+        ttoping.setText(null);
+        twarna.setText(null);
     }
 
     /**
