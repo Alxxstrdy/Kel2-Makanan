@@ -15,6 +15,17 @@ public class Bak_so extends javax.swing.JFrame {
      */
     public Bak_so() {
         initComponents();
+        reset();
+    }
+    
+    
+    void reset(){
+        sBumbu.setText (null);
+        sRasa.setText(null);
+        sTekstur.setText(null);
+        sTopping.setText(null);
+        sWarna.setText(null);
+        
     }
 
     /**
