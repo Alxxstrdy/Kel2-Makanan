@@ -9,6 +9,7 @@ public class Makanan_main {
         mie.setTekstur("Berkuah");
         mie.setWarna("Kuning Bening");
         mie.setTopping("Pangsit");
+        mie.setBentuk("Panjang");
         
         System.out.println("MIE AYAM");
         System.out.println("RASA\t :" + mie.getRasa());
@@ -16,6 +17,7 @@ public class Makanan_main {
         System.out.println("TEKSTUR\t :" + mie.getTekstur());
         System.out.println("WARNA\t :" + mie.getWarna());
         System.out.println("TOPPING\t :" + mie.getTopping());
+        System.out.println("BENTUK\t :" + mie.getBentuk() );
         
         Bakso bakso = new Bakso();
         bakso.setRasa("Gurih");

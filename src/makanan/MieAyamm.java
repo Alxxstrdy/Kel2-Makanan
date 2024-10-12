@@ -9,49 +9,18 @@ package makanan;
  *
  * @author Alxxstrdy
  */
-public class MieAyamm {
+public class MieAyamm extends Makanan {
    
-    String rasa, tekstur, bumbu, warna, topping;
-    
-    public void setRasa(String rasaMie){
-        this.rasa = rasaMie;
+    String bentuk;
+
+    public String getBentuk() {
+        return bentuk;
+    }
+
+    public void setBentuk(String bentuk) {
+        this.bentuk = bentuk;
     }
     
-    public String getRasa(){
-        return rasa;
-    } 
-    
-    public void setTekstur(String teksturMie){
-        this.tekstur = teksturMie;
-    }
-    
-    public String getTekstur(){
-        return tekstur;
-    }
-    
-    public void setBumbu(String bumbuMie){
-        this.bumbu = bumbuMie;
-    }
-    
-    public String getBumbu(){
-        return bumbu;
-    }
-    
-    public void setWarna(String warnaMie){
-        this.warna = warnaMie;
-    }
-    
-    public String getWarna(){
-        return warna;
-    }     
-    
-    public void setTopping(String toppingMie){
-        this.topping = toppingMie;
-    }
-    
-    public String getTopping(){
-        return topping;
-    }     
     
 }
 

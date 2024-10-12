@@ -1,5 +1,7 @@
 
-package makanan;
+package Frame;
+
+import makanan.NasiGoreng;
 
 public class NasiGorengFrame extends javax.swing.JFrame {
 
@@ -47,13 +49,11 @@ public class NasiGorengFrame extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("NASI GORENG");
 
         jLabel2.setBackground(new java.awt.Color(204, 204, 204));
         jLabel2.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("RASA");
 
         jRasa.addActionListener(new java.awt.event.ActionListener() {
@@ -64,7 +64,6 @@ public class NasiGorengFrame extends javax.swing.JFrame {
 
         jLabel3.setBackground(new java.awt.Color(204, 204, 204));
         jLabel3.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("BUMBU");
 
         jTekstur.addActionListener(new java.awt.event.ActionListener() {
@@ -75,17 +74,14 @@ public class NasiGorengFrame extends javax.swing.JFrame {
 
         jLabel4.setBackground(new java.awt.Color(204, 204, 204));
         jLabel4.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("TEKSTUR");
 
         jLabel5.setBackground(new java.awt.Color(204, 204, 204));
         jLabel5.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("WARNA");
 
         jLabel6.setBackground(new java.awt.Color(204, 204, 204));
         jLabel6.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("TOPING");
 
         jTopping.addActionListener(new java.awt.event.ActionListener() {
@@ -95,7 +91,6 @@ public class NasiGorengFrame extends javax.swing.JFrame {
         });
 
         bTampil.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        bTampil.setForeground(new java.awt.Color(0, 0, 0));
         bTampil.setText("TAMPIL");
         bTampil.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,19 +102,14 @@ public class NasiGorengFrame extends javax.swing.JFrame {
         jPanel2.setForeground(new java.awt.Color(153, 153, 153));
 
         tRasa.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
-        tRasa.setForeground(new java.awt.Color(0, 0, 0));
 
         tBumbu.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
-        tBumbu.setForeground(new java.awt.Color(0, 0, 0));
 
         tWarna.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
-        tWarna.setForeground(new java.awt.Color(0, 0, 0));
 
         tTekstur.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
-        tTekstur.setForeground(new java.awt.Color(0, 0, 0));
 
         tTopping.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
-        tTopping.setForeground(new java.awt.Color(0, 0, 0));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
