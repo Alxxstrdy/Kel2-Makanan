@@ -4,7 +4,7 @@
  */
 package Frame;
 
-import makanan.nasi_bakar;
+import makanan.Nasibakar_subclass;
 
 /**
  *
@@ -197,18 +197,18 @@ public class NasiBakar extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        nasi_bakar nasib = new nasi_bakar();
+        Nasibakar_subclass nasib = new Nasibakar_subclass();
         nasib.setRasa(jRASA.getText());
         nasib.setBumbu(jBUMBU.getText());
         nasib.setTekstur(jTEKSTUR.getText());
         nasib.setWarna(jWARNA.getText());
-        nasib.setToping(jTOPING.getText());
+        nasib.setTopping(jTOPING.getText());
         
         tRASA.setText("Rasa \t: " + nasib.getRasa());
         tBUMBU.setText("Bumbu \t: " + nasib.getBumbu());
         tTEKSTUR.setText("Tekstur \t: " + nasib.getTekstur());
         tWARNA.setText("Warna \t: " + nasib.getWarna());
-        tTOPING.setText("Toping \t: " + nasib.getToping());
+        tTOPING.setText("Toping \t: " + nasib.getTopping());
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTEKSTURActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTEKSTURActionPerformed

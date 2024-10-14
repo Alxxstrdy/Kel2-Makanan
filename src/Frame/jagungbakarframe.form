@@ -32,18 +32,16 @@
               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="bTampil" pref="226" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="tRasa" alignment="0" max="32767" attributes="0"/>
-                      <Component id="tBumbu" alignment="0" max="32767" attributes="0"/>
-                      <Component id="tTekstur" max="32767" attributes="0"/>
-                      <Component id="tWarna" max="32767" attributes="0"/>
-                      <Component id="tTopping" pref="226" max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="tRasa" alignment="0" max="32767" attributes="0"/>
+                  <Component id="tBumbu" alignment="0" max="32767" attributes="0"/>
+                  <Component id="tTekstur" max="32767" attributes="0"/>
+                  <Component id="tWarna" max="32767" attributes="0"/>
+                  <Component id="tTopping" pref="226" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="59" max="32767" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>

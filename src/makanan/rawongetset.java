@@ -8,7 +8,7 @@ package makanan;
  *
  * @author ASUS
  */
-public class rawongetset {
+public class rawongetset extends Makanan{
     String khas;
 
     public String getKhas() {

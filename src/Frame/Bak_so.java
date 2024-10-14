@@ -4,7 +4,7 @@
  */
 package Frame;
 
-import makanan.Bakso;
+import makanan.BAKSOO;
 
 /**
  *
@@ -206,12 +206,12 @@ public class Bak_so extends javax.swing.JFrame {
     }//GEN-LAST:event_bTeksturActionPerformed
 
     private void gTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gTampilActionPerformed
-        Bakso bakso = new Bakso();
+        BAKSOO bakso = new BAKSOO();
         bakso.setRasa(bRasa.getText());
         bakso.setBumbu(bBumbu.getText());
         bakso.setTekstur(bTekstur.getText());
-        bakso.SetWarna(bWarna.getText());
-        bakso.SetTopping(bTopping.getText());
+        bakso.setWarna(bWarna.getText());
+        bakso.setTopping(bTopping.getText());
         
         
         sRasa.setText("Rasa \s: " + bakso.getRasa());

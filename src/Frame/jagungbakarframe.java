@@ -4,7 +4,7 @@
  */
 package Frame;
 
-import makanan.jagungbakar1;
+import makanan.rifaulJagungbakar;
 
 /**
  *
@@ -216,7 +216,7 @@ public class jagungbakarframe extends javax.swing.JFrame {
     }//GEN-LAST:event_tBumbuActionPerformed
 
     private void bTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTampilActionPerformed
-        jagungbakar1 jagung = new jagungbakar1();
+        rifaulJagungbakar jagung = new rifaulJagungbakar();
         jagung.setRasa(tRasa.getText());
         jagung.setBumbu(tBumbu.getText());
         jagung.setTekstur(tTekstur.getText());

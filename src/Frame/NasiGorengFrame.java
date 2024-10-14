@@ -1,7 +1,7 @@
 
 package Frame;
 
-import makanan.NasiGoreng;
+import makanan.NasGor;
 
 public class NasiGorengFrame extends javax.swing.JFrame {
 
@@ -232,7 +232,7 @@ public class NasiGorengFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jToppingActionPerformed
 
     private void bTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTampilActionPerformed
-        NasiGoreng Nasgor = new NasiGoreng();
+        NasGor Nasgor = new NasGor();
         Nasgor.setRasa(jRasa.getText());
         Nasgor.setBumbu(jBumbu.getText());
         Nasgor.setTekstur(jTekstur.getText());

@@ -4,7 +4,7 @@
  */
 package Frame;
 
-import makanan.bubur;
+import makanan.buburr;
 
 /**
  *
@@ -236,18 +236,18 @@ public class framebubur extends javax.swing.JFrame {
     }//GEN-LAST:event_jrasaActionPerformed
 
     private void ttampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ttampilActionPerformed
-     bubur bubur = new bubur();
-bubur.setrasa(jrasa.getText());
+     buburr bubur = new buburr();
+bubur.setRasa(jrasa.getText());
 bubur.setBumbu (jbumbu.getText());
-bubur.settekstur (jtekstur.getText());
-bubur.setwarna (jwarna.getText());
-bubur.settoping (jtoping.getText());
+bubur.setTekstur (jtekstur.getText());
+bubur.setWarna (jwarna.getText());
+bubur.setTopping (jtoping.getText());
 
-trasa.setText("rasa \t:"+ bubur.getrasa());
+trasa.setText("rasa \t:"+ bubur.getRasa());
 tbumbu.setText("bumbu \t:" + bubur.getBumbu());
-ttekstur.setText("tekstur \t:" + bubur.gettekstur());
-twarna.setText("warna \t: " + bubur.getwarna());
-ttoping.setText("toping \t:" + bubur.gettoping());
+ttekstur.setText("tekstur \t:" + bubur.getTekstur());
+twarna.setText("warna \t: " + bubur.getWarna());
+ttoping.setText("toping \t:" + bubur.getTopping());
     }//GEN-LAST:event_ttampilActionPerformed
 
     /**

@@ -4,7 +4,7 @@
  */
 package Frame;
 
-import makanan.Rawon;
+import makanan.rawongetset;
 
 /**
  *
@@ -239,7 +239,7 @@ public class FrameMukhlsn extends javax.swing.JFrame {
     }//GEN-LAST:event_tToppingActionPerformed
 
     private void bTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTampilActionPerformed
-        Rawon rawon = new Rawon();
+        rawongetset rawon = new rawongetset();
         rawon.setRasa(tRasa.getText());
         rawon.setBumbu(tBumbu.getText());
         rawon.setTekstur(tTekstur.getText());
